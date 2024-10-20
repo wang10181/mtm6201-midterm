@@ -1,0 +1,621 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+                 
+
+
+
+
+/* my mid-term assignment */
+/* Body Styling */
+/* Basic body styles */
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #f3f0e9;
+    color: #000;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    
+}
+
+/* Header styles for logo */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000; /* 黑色背景 */
+}
+
+header .logo {
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    
+    padding: 10px 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #000; 
+    display: flex;
+    justify-content: center; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f3f0e9; 
+}
+
+
+
+
+
+
+
+.hero {
+    position: relative; 
+}
+
+.box1 {
+    background-image: url("../images/hero-background.jpg");
+    background-size: cover; 
+    width: 100%; 
+    height: 650px; 
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative; 
+}
+
+.box2 {
+    position: absolute; /* 绝对定位，覆盖 box1 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex; /* 方便内部元素居中对齐 */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 34, 34, 0.6); /* 半透明背景色 */
+    color: #fff; /* 确保文字颜色可见 */
+    text-align: center;
+}
+
+.hero{
+    padding: 2px;
+    
+}
+.hero h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    padding: 50px ;
+    padding-top: 170px;
+    font-weight: bolder;
+  
+}
+
+.hero p {
+    font-family: 'Karla', sans-serif;
+    
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+    
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000000;
+    text-decoration: none;
+    
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 70px; /* 给底部一些间距 */
+}
+
+.button:hover {
+    background-color: #966f2c;
+}
+
+/* Section Styling */
+.section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+
+.footer p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+/* Skip Link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* welcome to coffee house part */
+.section1 h2{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    margin-top: 120px;
+    color: #d69e3d;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+.section1 p{
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  
+    
+}
+
+
+
+.coffeehouse {
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    grid-template-areas:
+    "b1 b1"
+    "b1 b1"
+    "b2 b3"
+    "b4 b5"
+}
+.coffeehouse {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 25px; 
+    margin: 20px 0; 
+}
+
+.coffeehouse img {
+    width: 100%; 
+    transition: transform 0.3s; 
+}
+
+.coffeehouse img:hover {
+    transform: scale(1.05); 
+}
+
+/* 定义网格区域 */
+.coffeehouse img:nth-child(1) { grid-area: b1; }
+.coffeehouse img:nth-child(2) { grid-area: b2; }
+.coffeehouse img:nth-child(3) { grid-area: b3; }
+.coffeehouse img:nth-child(4) { grid-area: b4; }
+.coffeehouse img:nth-child(5) { grid-area: b5; }
+
+.why-visit-us {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grid layout for the feature boxes */
+.features {
+    display: grid;
+    grid-template-columns: 1fr; /* One column on mobile */
+    gap: 40px;
+    padding: 20px 10px;
+}
+
+/* Images inside the feature boxes */
+.feature-icon {
+    width: 248px;  /* Set the specific image size */
+    margin-bottom: 20px; /* Space between image and heading */
+}
+
+/* Article headings */
+h3 {
+    font-size: 38px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    color: #000000;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+/* Article paragraph */
+p {
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    color:#000000;
+    
+    margin: 0 auto; /* Center the paragraph under each image */
+}
+
+.features p1{
+    font-size: 38px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    color: #000000;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.features h4{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    color: #d69e3d;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+.box4 {
+    background-image: url("../images/coffee-shop.jpeg"); /* Background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-between; /* Space between columns */
+    align-items: center;
+    flex-direction: column;
+    position: relative; /* Required for absolute positioning of overlay */
+    color: #fff;
+    padding: 20px;
+}
+
+
+/* Add an overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    z-index: 1; /* Place it behind the text */
+}
+
+/* Ensure text appears on top of the overlay */
+.menu-column, .locations-column {
+    width: 70%;
+    text-align: center;
+    z-index: 2; /* Text layer is above overlay */
+}
+
+/* Styling for headings */
+.ourmenu h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#d69e3d;;
+    margin-bottom: 10px;
+    margin: 30px;
+}
+
+/* Styling for paragraphs */
+.ourmenu p {
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+.button {
+    padding: 10px 40px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.black-button {
+    background-color: #000; /* Black background */
+    color: #fff; 
+    border: 2px solid #fff;
+    padding: 10px 40px;
+}
+
+.black-button:hover {
+    background-color: #966f2c; /* Slightly lighter black on hover */
+    border-color: #fff;
+}
+.story img{
+    display: flex;
+    width: 100%;
+    padding: 25px;
+    margin-top: 50px;
+}
+.story h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#d69e3d;
+    text-align: left;
+    
+.story h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#000000;
+    text-align: left;
+    font-weight: bolder;
+    margin: 10px;
+}
+.story p{
+    font-family: 'Karla', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: none;
+    font-weight: none;
+    margin-bottom: 10px;
+    direction: ltr;
+    text-align: left;
+   
+}
+
+   
+    margin: 20px;
+}
+.story h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#000000;
+    text-align: left;
+    font-weight: bolder;
+    margin: 10px;
+}
+.story p{
+    font-family: 'Karla', sans-serif;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.6;
+    text-transform: none;
+    font-weight: normal;
+    margin-bottom: 10px;
+    direction: ltr;
+    text-align: left;
+   
+}
+.black-button1 {
+    background-color: #000;
+    color: #fff; 
+    border: 2px solid #fff;
+    padding: 10px 10px; 
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 24px;
+    width: 45%; 
+    display: block; 
+    margin-top: 40px; 
+    
+}
+
+.black-button1:hover {
+    background-color: #966f2c; 
+    border-color: #fff;
+}
+
+
+
+/* this is my testimonisl part */
+
+
+.testim {
+    background-color: black;
+    color: white; /* 使文本在黑色背景上可见 */
+    flex-grow: 1; /* 让这个部分占满页面的剩余空间 */
+    padding: 20px; /* 使内容和背景保持距离 */
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+
+
+
+.testim h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#d69e3d;
+    text-align: left;
+   padding: 15px;
+   margin-top: 50px;
+   
+}
+
+.testim h3{
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: left;
+    padding: 12px;
+    width: 60%;
+   
+   
+}
+
+
+
+.section {
+    position: relative;
+    
+    color: white;
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    z-index: 1;
+    margin-bottom: 1px; 
+    
+}
+
+.section p {
+    position: absolute;
+    bottom: 140px;
+    left: 20px;   
+    margin: 0;   
+    z-index: 2; 
+    color: #fff;  
+}
+
+.section h3 {
+    position: absolute;
+    bottom: 70px; 
+    left: 20px;   
+    margin: 0;    
+    z-index: 2;   
+}
+
+.section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* overlay的颜色和透明度 */
+    z-index: -1;
+}
+
+#testimonials1 {
+    background-image: url("../images/testimonial-1.jpeg");
+    padding: 20px;
+}
+
+#testimonials2 {
+    background-image: url("../images/testimonial-2.jpeg");
+    padding: 20px;
+}
+
+#testimonials3 {
+    background-image: url("../images/testimonial-3.jpeg");
+    padding: 20px;
+}
