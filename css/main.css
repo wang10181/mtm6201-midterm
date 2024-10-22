@@ -167,7 +167,7 @@ nav ul li a:hover {
 }
 .hero h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -181,7 +181,6 @@ nav ul li a:hover {
 
 .hero p {
     font-family: 'Karla', sans-serif;
-    
     color: #fff;
     font-size: 16px;
     line-height: 1;
@@ -202,8 +201,8 @@ nav ul li a:hover {
     transition: background-color 0.5s ease;
     text-transform: uppercase;
     font-weight: bolder;
-    font-size: 20px;
-    margin-bottom: 70px; 
+    font-size: 29px;
+    margin-bottom: 90px; 
 }
 
 .button:hover {
@@ -360,23 +359,7 @@ nav ul li a:hover {
 }
 
 /* Article headings */
-h3 {
-    font-size: 38px;
-    font-family: 'Lato', sans-serif;
-    margin-bottom: 10px; /* Space between heading and paragraph */
-    color: #000000;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
 
-/* Article paragraph */
-p {
-    font-size: 25px;
-    font-family: 'Karla', sans-serif;
-    color:#000000;
-    
-    margin: 0 auto; /* Center the paragraph under each image */
-}
 
 .features p1{
     font-size: 38px;
@@ -444,7 +427,7 @@ p {
 .ourmenu p {
     font-family: 'Karla', sans-serif;
     color: #fff;
-    font-size: 30px;
+    font-size: 16px;
     line-height: 1;
     text-transform: uppercase;
     font-weight: bolder;
@@ -460,7 +443,7 @@ p {
     transition: background-color 0.5s ease;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     display: inline-block;
     margin-top: 10px;
 }
