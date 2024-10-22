@@ -83,7 +83,7 @@ header {
 }
 
 header .logo {
-    font-size: 28px;
+    font-size: 32px;
     font-family: 'Lato', sans-serif;
     color: #fff;
     font-weight: bold;
@@ -115,7 +115,7 @@ nav ul li a {
     font-family: 'Lato', sans-serif;
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
     transition: color 0.3s ease;
@@ -167,7 +167,7 @@ nav ul li a:hover {
 }
 .hero h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 40px;
+    font-size: 28px;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -183,7 +183,7 @@ nav ul li a:hover {
     font-family: 'Karla', sans-serif;
     
     color: #fff;
-    font-size: 30px;
+    font-size: 16px;
     line-height: 1;
     text-align: center;
     padding-bottom: 70px;
@@ -276,7 +276,7 @@ nav ul li a:hover {
 }
 
 .section1 p{
-    font-size: 45px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -914,6 +914,264 @@ p {
 }
 
 
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #f3f0e9;
+    color: #000;
+    line-height: 1.6;
+}
+
+nav ul li a {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+
+
+.hero h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    padding: 50px ;
+    padding-top: 170px;
+    font-weight: bolder;
+  
+}
+
+.hero p {
+    font-family: 'Karla', sans-serif;
+    
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+    
+}
+
+
+
+/* welcome to coffee house part */
+.section1 h2{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    margin-top: 120px;
+    color: #d69e3d;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+.section1 p{
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+     
+}
+
+
+/* Article headings */
+h3 {
+    font-size: 38px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    color: #000000;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+/* Article paragraph */
+p {
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    color:#000000;
+    
+    margin: 0 auto; /* Center the paragraph under each image */
+}
+
+.features p1{
+    font-size: 38px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    color: #000000;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.features h4{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    color: #d69e3d;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+
+/* Styling for headings */
+.ourmenu h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#d69e3d;;
+    margin-bottom: 10px;
+    margin: 30px;
+}
+
+/* Styling for paragraphs */
+.ourmenu p {
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+
+
+.story h1 { 
+    font-family: 'Lato', sans-serif;
+    font-size: 22px; 
+    text-transform: uppercase;
+    color: #d69e3d;
+    text-align: left;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.story h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px; 
+    text-transform: uppercase;
+    color: #000000;
+    text-align: left;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.story p {
+    font-family: 'Karla', sans-serif;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: none;
+    font-weight: normal; /* Change 'none' to 'normal' */
+    margin-bottom: 10px;
+    direction: ltr;
+    text-align: left;
+}
+
+
+
+
+
+.black-button1 {
+    background-color: #000;
+    color: #fff; 
+    border: 2px solid #fff;
+    padding: 20px 20px; 
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 24px;
+    width: 38%; 
+    display: block; 
+    margin-top: 40px; 
+    margin-bottom: 40px;
+    text-align: center;
+    transition: background-color 0.5s ease;
+    
+}
+
+.black-button1:hover {
+    background-color: #966f2c; 
+    border-color: #fff;
+}
+
+
+
+/* this is my testimonisl part */
+
+
+
+
+
+.testim h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#d69e3d;
+    text-align: left;
+   padding: 15px;
+   margin-top: 50px;
+   
+}
+
+.testim h3{
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: left;
+    padding: 12px;
+    width: 60%;
+   
+   
+}
+
+
+
+.section {
+    position: relative;
+    
+  
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    z-index: 1;
+    margin-bottom: 1px; 
+    
+}
+
+.section p {
+    position: absolute;
+    bottom: 140px;
+    left: 20px;   
+    margin: 0;   
+    z-index: 2; 
+    color: #fff;  
+}
+
+.section h3 {
+    position: absolute;
+    bottom: 70px; 
+    left: 20px;   
+    margin: 0;    
+    z-index: 2;  
+    color: #d69e3d; 
+}
+
+
+
 }
 
     
@@ -983,3 +1241,263 @@ p {
     .icons article:nth-child(1) { grid-area: c2; }
     .icons article:nth-child(1) { grid-area: c3; }
 }
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #f3f0e9;
+    color: #000;
+    line-height: 1.6;
+}
+
+nav ul li a {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+
+
+.hero h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    padding: 50px ;
+    padding-top: 170px;
+    font-weight: bolder;
+  
+}
+
+.hero p {
+    font-family: 'Karla', sans-serif;
+    
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+    
+}
+
+
+
+/* welcome to coffee house part */
+.section1 h2{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    margin-top: 120px;
+    color: #d69e3d;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+.section1 p{
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+     
+}
+
+
+/* Article headings */
+h3 {
+    font-size: 38px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    color: #000000;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+/* Article paragraph */
+p {
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    color:#000000;
+    
+    margin: 0 auto; /* Center the paragraph under each image */
+}
+
+.features p1{
+    font-size: 38px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    color: #000000;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.features h4{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    color: #d69e3d;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+
+/* Styling for headings */
+.ourmenu h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#d69e3d;;
+    margin-bottom: 10px;
+    margin: 30px;
+}
+
+/* Styling for paragraphs */
+.ourmenu p {
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+
+
+.story h1 { 
+    font-family: 'Lato', sans-serif;
+    font-size: 22px; 
+    text-transform: uppercase;
+    color: #d69e3d;
+    text-align: left;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.story h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px; 
+    text-transform: uppercase;
+    color: #000000;
+    text-align: left;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.story p {
+    font-family: 'Karla', sans-serif;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: none;
+    font-weight: normal; /* Change 'none' to 'normal' */
+    margin-bottom: 10px;
+    direction: ltr;
+    text-align: left;
+}
+
+
+
+
+
+.black-button1 {
+    background-color: #000;
+    color: #fff; 
+    border: 2px solid #fff;
+    padding: 20px 20px; 
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 24px;
+    width: 38%; 
+    display: block; 
+    margin-top: 40px; 
+    margin-bottom: 40px;
+    text-align: center;
+    transition: background-color 0.5s ease;
+    
+}
+
+.black-button1:hover {
+    background-color: #966f2c; 
+    border-color: #fff;
+}
+
+
+
+/* this is my testimonisl part */
+
+
+
+
+
+.testim h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#d69e3d;
+    text-align: left;
+   padding: 15px;
+   margin-top: 50px;
+   
+}
+
+.testim h3{
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: left;
+    padding: 12px;
+    width: 60%;
+   
+   
+}
+
+
+
+.section {
+    position: relative;
+    
+  
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    z-index: 1;
+    margin-bottom: 1px; 
+    
+}
+
+.section p {
+    position: absolute;
+    bottom: 140px;
+    left: 20px;   
+    margin: 0;   
+    z-index: 2; 
+    color: #fff;  
+}
+
+.section h3 {
+    position: absolute;
+    bottom: 70px; 
+    left: 20px;   
+    margin: 0;    
+    z-index: 2;  
+    color: #d69e3d; 
+}
+
+
+
+
